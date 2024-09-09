@@ -1,0 +1,10 @@
+:root {
+  color-scheme: dark;
+  font-size: 62.5%;
+  --demo-circle-spinner-xsmall: 1.6rem;
+  --demo-circle-spinner-small: 2.4rem;
+  --demo-circle-spinner-medium: 4rem;
+  --demo-circle-spinner-large: 6.4rem;
+  --demo-circle-spinner-border: 4px solid #fff;
+  --demo-circle-spinner-border-bottom-color: #82c31f;
+}

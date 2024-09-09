@@ -4,18 +4,65 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + Lit + TS</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.16.0/cdn/themes/light.css" />
-        <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.16.0/cdn/components/button/button.js"></script>
-    <link rel="stylesheet" href="./src/index.css" />
-    <script type="module" src="/src/my-element.ts"></script>
+    <title>Demo Button</title>
+    <link rel="stylesheet" href="./src/demo-button-theme-dark.css" />
+    <script type="module" src="/src/demo-button.ts"></script>
+
   </head>
   <body>
-    <my-element name="Kaiyu" count="9">
-      <h1>Vite + Lit</h1>
-      <sl-button>Button</sl-button>
-    </my-element>
-    
-
+    <div style="display: flex">
+      <demo-button  size="large"
+        >Next</demo-button
+      >
+      <demo-button  disabled size="large"
+        >Next</demo-button
+      >
+      <demo-button  loading="true" size="large"
+        >Next</demo-button
+      >
+      </div>
+      </br></br>
+      <div style="display: flex">
+      <demo-button  size="medium"
+        >Next</demo-button
+      >
+      <demo-button  disabled size="medium"
+        >Next</demo-button
+      >
+      <demo-button  loading="true" size="medium"
+        >Next</demo-button
+      >
+      </div>
+      </br></br>
+       <div style="display: flex">
+            <demo-button  size="small"
+        >Next</demo-button
+      >
+      <demo-button  disabled size="small"
+        >Next</demo-button
+      >
+      <demo-button  loading="true" size="small"
+        >Next</demo-button
+      >
+    </div>
+    </br></br>
+     <div style="display: flex">
+            <demo-button  size="xsmall"
+        >Next</demo-button
+      >
+      <demo-button  disabled size="xsmall"
+        >Next</demo-button
+      >
+      <demo-button  loading="true" size="xsmall"
+        >Next</demo-button
+      >
+    </div>
+    </br></br>
+    <div style="display: flex">
+      <demo-spinner size="xsmall"></demo-spinner>
+      <demo-spinner size="small"></demo-spinner>
+      <demo-spinner size="medium"></demo-spinner>
+      <demo-spinner size="large"></demo-spinner>
+      </div>
   </body>
 </html>
